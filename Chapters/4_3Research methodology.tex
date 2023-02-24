@@ -1,5 +1,5 @@
 \chapter{การทดสอบแบตเตอรี่ตามมาตรฐาน}
-แบตเตอรี่เป็นส่วนประกอบที่มีความสำคัญมากสำหรับยานยนต์ไฟฟ้าเนื่องจากเป็นอุปกรณ์ที่กักเก็บและให้พลังงานไฟฟ้ากับยานยนต์ไฟฟ้าเพื่อความปลอดภัยของผู้ที่ใช้งานยานยนต์ไฟฟ้ามารตฐานต่างๆจึงถูกกำหนดขึ้นเพื่อ
+แบตเตอรี่เป็นส่วนประกอบที่มีความสำคัญมากสำหรับยานยนต์ไฟฟ้าเนื่องจากเป็นอุปกรณ์ที่กักเก็บและให้พลังงานไฟฟ้ากับยานยนต์ไฟฟ้าเพื่อความปลอดภัยของผู้ที่ใช้งานยานยนต์ไฟฟ้ามาร-ตฐานต่างๆจึงถูกกำหนดขึ้นเพื่อ
 ใช้กับทุกส่วนประกอบของยานยนต์ไฟฟ้ารวมถึงแบตเตอรี่ด้วยเช่นกันซึ่งการทดสอบแบตเตอรี่ที่ทางคณะผู้จัดทำได้ทำการทดสอบนั้นจะทดสอบตามมาตรฐาน UN ECE Regulation 136 ทั้งหมด 3 หัวข้อดังนี้
 \subsection{การทดสอบการป้องกันการลัดวงจรภายนอกของแบตเตอรี่}
 ในหัวข้อนี้จะเป็นการทดสอบการป้องกันการลัดวงจรภายนอกแบตเตอรี่ของแบตเตอรี่โดยจุดประสงค์ของการทดสอบนี้เพื่อทดสอบความสามารถการป้องกันการลัดวงจรของแบตเตอรี่โดยถ้าแบตเตอรี่มีอุปกรณ์ป้องกันการลัดวงจรอยู่ภาย
@@ -67,8 +67,86 @@
 \end{enumerate}
 %========================================================================================================
 \section{อุปกรณ์สำหรับทดสอบแบตเตอรี่}
-ในการทดสอบแบตเตอรี่สำหรับโครงงานนี้อุปกรณ์หลักที่จะใช้ในการทดสอบในหัวข้อต่างๆคือเครื่องทดสอบแบตเตอรี่ Chroma Model 17020 โดยใช้งานเครื่องทดสอบแบตเตอรี่ในการทดสอบแบตเตอรี่ในแต่ละหัวข้อมีดังนี้
-\subsection{การใช้เครื่องทดสอบแบตเตอรี่ Chorma Model 17020 \\ การทดสอบการป้องกันการลัดวงจรภายนอกของแบตเตอรี่}
+ในการทดสอบแบตเตอรี่สำหรับโครงงานนี้อุปกรณ์หลักที่จะใช้ในการทดสอบในหัวข้อต่างๆคือเครื่องทดสอบแบตเตอรี่ Chroma Model 17020 โดยอุปกรณ์ที่ใช้ในระบบของเครื่องนี้ประกอบด้วย
+\begin{enumerate}
+{\item 69200-1 Charge/Discharge Controller \newline
+ทำหน้าที่เก็บข้อมูลการทดสอบแบตเตอรี่ทุกๆ 1 วินาทีและสามารถควบคุมการทำงานผ่านระบบอีเทอร์เน็ต(Ethernet)ได้}
+{\item A691101 DC/AC Bi-Direction Converter\newline
+ทำหน้าที่แปลงกระแสไฟฟ้าเป็นไฟฟ้ากระแสตรงให้กับเครื่องทดสอบและสามารถแปลงกระแสไฟฟ้ากระแสตรงจากแบตเตอรี่ให้เป็นกระแสสลับเพื่อนำกลับมาใช้ใหม่}
+{\item 69225-100-4 Regenerative Charge/Discharge Tester\newline
+ทำหน้าที่จ่ายพลังงานไฟฟ้าให้กับแบตเตอรี่หรือรับพลังงานไฟฟ้าจากแบตเตอรี่}
+{\item ON/OFF Controller\newline
+ทำหน้าที่ควบคุมการจ่ายพลังงานไฟฟ้าให้กับระบบของเครื่องทดสอบแบตเตอรี่}
+\end{enumerate}
+\begin{center}
+	\begin{figure}[H]
+		\includegraphics[width=1\linewidth]{Chapters/img/Charge_Discharge_Controller.jpg}
+			\centering
+			\captionsetup{justification=centering,margin=2cm}
+			\caption{Charge/Discharge Controller}
+	\end{figure}
+	\begin{figure}[H]
+		\includegraphics[width=1\linewidth]{Chapters/img/Bi_Direction_Converter.jpg}
+			\centering
+			\captionsetup{justification=centering,margin=2cm}
+			\caption{DC/AC Bi-Direction Converter}
+	\end{figure}
+	\begin{figure}[H]
+		\includegraphics[width=1\linewidth]{Chapters/img/Regenerative_Charge_Discharge.jpg}
+			\centering
+			\captionsetup{justification=centering,margin=2cm}
+			\caption{Regenerative Charge/Discharge Tester}
+	\end{figure}
+	\begin{figure}[H]
+		\includegraphics[width=1\linewidth]{Chapters/img/ON_OFF_Controller.jpg}
+			\centering
+			\captionsetup{justification=centering,margin=2cm}
+			\caption{ON/OFF Controller}
+	\end{figure}
+%	\begin{figure}[!h]
+%		\includegraphics[width=0.5\linewidth]{Chapters/img/Chroma_17020_3.jpg}
+%			\centering
+%			\captionsetup{justification=centering,margin=2cm}
+%			\caption{เครื่องทดสอบแบตเตอรี่ Chroma Model 17020}
+%	\end{figure}
+\end{center}
+%========================================================================
+\vfill
+\subsection{แบตเตอรี่สำหรับทำการทดสอบ}
+แบตเตอรี่ที่ทำการทดสอบเป็นแบตเตอรี่ชนิดลิเธียมแมงกานีสโคบอลท์ออกไซด์(NMC)พิกัด 72V/30Ah ซึ่งคุณสมบัติแสดงดังตาราง
+\begin{center}
+	\begin{figure}[H]
+		\includegraphics[width=0.5\linewidth]{Chapters/img/Battery_name_plate.PNG}
+		\centering
+		\captionsetup{justification=centering,margin=2cm}
+		\caption{ตารางคุณสมบัติของแบตเตอรี่}
+	\end{figure}
+	\begin{figure}[H]
+		\includegraphics[width=0.5\linewidth]{Chapters/img/Battery_72V_30AH}
+		\centering
+		\captionsetup{justification=centering,margin=2cm}
+		\caption{แบตเตอรี่สำหรับทำการทดสอบ}
+	\end{figure}
+\end{center}
+%========================================================================================================
+โดยใช้งานเครื่องทดสอบแบตเตอรี่ในการทดสอบแบตเตอรี่ในแต่ละหัวข้อมีดังนี้
+%========================================================================================================
+\subsection{การใช้เครื่องทดสอบแบตเตอรี่ Chroma Model 17020 \\ ในการทดสอบการป้องกันการลัดวงจรภายนอกของแบตเตอรี่}
+สำหรับหัวข้อการทดสอบการป้องกันการลัดวงจรภายนอกของแบตเตอรี่
+%========================================================================================================
+\subsection{การใช้เครื่องทดสอบแบตเตอรี่ Chroma Model 17020 \\ ในการทดสอบการป้องกันการชาร์จเกินของแบตเตอรี่}
+สำหรับหัวข้อการทดสอบการป้องกันการชาร์จเกินของแบตเตอรี่โดยใช้เครื่องทดสอบแบตเตอรี่ Chroma Model 17020 ในการทดสอบพารามิเตอร์ต่างๆจะถูกตั้งค่าให้เหมาะสมสำหรับการทดสอบตามมาตรฐาน UN ECE Regulation 136 ซึ่งการตั้งค่านั้นมีดังนี้
+\begin{center}
+	\begin{figure}[!h]
+		\includegraphics[width=0.8\linewidth]{Chapters/img/R136_DEMO/UUT_TEST_OVCP.png}
+		\centering
+		\captionsetup{justification=centering,margin=2cm}
+		\caption{การตั้งค่าสำหรับการทดสอบการป้องกันการชาร์จเกินของแบตเตอรี่}
+	\end{figure}
+\end{center}
+%========================================================================================================
+\subsection{การใช้เครื่องทดสอบแบตเตอรี่ Chroma Model 17020 \\ ในการทดสอบการป้องกันการดิสชาร์จเกินของแบตเตอรี่}
+%สำหรับหัวข้อการทดสอบการป้องกันการลัดวงจรภายนอกของแบตเตอรี่
 
 
 
