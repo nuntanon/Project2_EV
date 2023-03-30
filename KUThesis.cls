@@ -70,7 +70,6 @@ labelsep=space
 % URL =================================================
 \usepackage{url}
 
-
 % FOOTNOTE ============================================
 \footmarkstyle{\hspace{\parindent}\textsuperscript{#1}}    
 \setlength{\footmarkwidth}{0em}
