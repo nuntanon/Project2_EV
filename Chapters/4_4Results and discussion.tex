@@ -20,7 +20,7 @@
 \begin{center}
 	\begin{figure}[H]
 	\makebox[\textwidth]{
-	\includegraphics[width=\paperwidth]{Chapters/img/Result/Charge curve 72V30Ah.png}}
+	\includegraphics[width=\paperwidth]{Chapters/img/Result/Charge curve 72V30Ah_OV.png}}
 		\centering
 		\captionsetup{justification=centering,margin=2cm}
 		\caption{กราฟการทดสอบการป้องกันการชาร์จเกินของแบตเตอรี่ 72V30Ah}
@@ -44,14 +44,14 @@
 แต่การทดสอบนั้นถูกขัดจังหวะโดยผู้ทดสอบเองเนื่องจากหากดำเนินการทดสอบต่อไปอาจจะทำให้เกิดความเสียหายกับแบตเตอรี่และอุปกรณ์การทดสอบได้ซึ่ง
 หลังจากที่หยุดการชาร์จผู้ทดสอบได้ทำการสังเกตแบตเตอรี่เป็นระยะเวลา 1 ชั่วโมงพบว่าแบตเตอรี่ยังคงสภาพปกติและยังคงสามารถใช้งานได้
 \newline
-ผลจากการทดสอบแบตเตอรี่ 72V 70Ah มีดังนี้
+ผลจากการทดสอบแบตเตอรี่ 72V 72Ah มีดังนี้
 \begin{center}
 	\begin{figure}[H]
 	\makebox[\textwidth]{
-	\includegraphics[width=\paperwidth]{Chapters/img/Result/Charge curve 72V60Ah.png}}
+	\includegraphics[width=\paperwidth]{Chapters/img/Result/Charge curve 0.3C 72V72Ah.png}}
 		\centering
 		\captionsetup{justification=centering,margin=2cm}
-		\caption{กราฟการทดสอบการป้องกันการชาร์จเกินของแบตเตอรี่ 72V60Ah}
+		\caption{กราฟการทดสอบการป้องกันการชาร์จเกินของแบตเตอรี่ 72V72Ah}
 	\end{figure}
 \end{center}
 จากการทดสอบพบว่าแบตเตอรี่สำหรับรถสามล้อไฟฟ้าระหว่างการทดสอบไม่มีการรั่วไหลของอิเล็กโทรไลต์ ไม่มีการแตกหักหรือฉีกขาด ไม่เกิดเพลิงใหม้ และไม่เกิดการระเบิด
@@ -88,6 +88,23 @@
 โดยการทดสอบการดิสชาร์จนี้ถูกขัดจังหวะโดยระบบการจัดการแบตเตอรี่(BMS)ของโมดูลแบตเตอรี่นี้เองซึ่งเมื่อแบตเตอรี่มีแรงดันต่ำเกินกว่าที่ระบบการจัดการแบตเตอรี่กำหนด
 หลังจากที่หยุดการดิสชาร์จจากนั้นผู้ทดสอบได้ทำการสังเกตแบตเตอรี่เป็นระยะเวลา 1 ชั่วโมงพบว่าแบตเตอรี่ยังคงสภาพปกติและยังคงสามารถใช้งานได้
 %=====================================================================================================
+\newline
+\pagebreak
+ผลจากการทดสอบแบตเตอรี่ 72V 72Ah มีดังนี้
+\begin{center}
+	\begin{figure}[H]
+	\makebox[\textwidth]{
+	\includegraphics[width=\paperwidth]{Chapters/img/Result/Discharge curve 0.5C 72V72Ah.png}}
+		\centering
+		\captionsetup{justification=centering,margin=2cm}
+		\caption{กราฟการทดสอบการป้องกันการดิสชาร์จเกินของแบตเตอรี่ 72V72Ah}
+	\end{figure}
+\end{center}
+\hspace*{2cm}
+จากการทดสอบพบว่าแบตเตอรี่สำหรับรถสามล้อไฟฟ้าระหว่างการทดสอบไม่มีการรั่วไหลของอิเล็กโทรไลต์ ไม่มีการแตกหักหรือฉีกขาด ไม่เกิดเพลิงใหม้ และไม่เกิดการระเบิด
+โดยการทดสอบการดิสชาร์จนี้ถูกขัดจังหวะโดยระบบการจัดการแบตเตอรี่(BMS)ของโมดูลแบตเตอรี่นี้เองซึ่งเมื่อแบตเตอรี่มีแรงดันต่ำเกินกว่าที่ระบบการจัดการแบตเตอรี่กำหนด
+หลังจากที่หยุดการดิสชาร์จจากนั้นผู้ทดสอบได้ทำการสังเกตแบตเตอรี่เป็นระยะเวลา 1 ชั่วโมงพบว่าแบตเตอรี่ยังคงสภาพปกติและยังคงสามารถใช้งานได้
+%=====================================================================================================
 \section{ผลการทดสอบอื่นๆ}
 \subsection{ผลการทดสอบการวัดความต้านทานภายในของแบตเตอรี่}
 จากรูป\ref{fig:DCIR_Test}ซึ่งเป็นกราฟการทดสอบการวัดความต้านทานภายในของโมดูลแบตเตอรี่ 72V72Ah ซึ่งทดสอบขณะที่โมดูลแบตเตอรี่มีแรงดันขณะสภาวะไม่มีโหลดที่ 72V และเริ่มทดสอบด้วยการ
@@ -108,10 +125,10 @@
 \begin{center}
 	\begin{figure}[H]
 	\makebox[\textwidth]{
-	\includegraphics[width=\paperwidth]{Chapters/img/Result/Discharge curve 72V60Ah.png}}
+	\includegraphics[width=\paperwidth]{Chapters/img/Result/Relaxation Time.png}}
 		\centering
 		\captionsetup{justification=centering,margin=2cm}
-		\caption{กราฟการทดสอบการป้องกันการดิสชาร์จเกินของแบตเตอรี่ 72V60Ah}
+		\caption{กราฟการทดสอบระยะเวลาพักแบตเตอรี่ 72V72Ah}
 		\label{fig:Rest_Test}
 	\end{figure}
 \end{center}
@@ -121,12 +138,13 @@
 \begin{center}
 	\begin{figure}[H]
 	\makebox[\textwidth]{
-	\includegraphics[width=\paperwidth]{Chapters/img/Result/Discharge curve 72V60Ah.png}}
+	\includegraphics[width=\paperwidth]{Chapters/img/Result/Discharge curve V vs Ah.png}}
 		\centering
 		\captionsetup{justification=centering,margin=2cm}
-		\caption{กราฟการทดสอบการป้องกันการดิสชาร์จเกินของแบตเตอรี่ 72V60Ah}
+		\caption{กราฟการทดสอบอัตรากระแสดิสชาร์จ 72V72Ah}
 		\label{fig:C_rate_Test}
 	\end{figure}
+	
 \end{center}
 
 

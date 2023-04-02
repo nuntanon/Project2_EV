@@ -4,11 +4,10 @@
 % turabian, apa or vancouver
 % filling in a bracket of the chosen command.
 
-\bibmanual{apa}
+%\bibmanual{apa}
 %\bibauto{vancouver}
 
 \usepackage{KUbibsetting}
-
 
 
 
@@ -20,6 +19,8 @@
 \usepackage[hypcap=true]{caption}
 \usepackage{float}
 \usepackage{multirow}
+%\usepackage{biblatex}
+\usepackage{cite}
 
 \begin{document}
 	% Some optional commands, mark with "OPT", can be omitted by making them as comments 
@@ -31,9 +32,9 @@
 	\listoffigures %OPT
 	\listofabbreviations %OPT
 	\include{4_TextSection}
-	\include{5_ReferenceSection}
+%	\include{5_ReferenceSection}
+	\bibliographystyle{IEEEtran}
+	\bibliography{6_References}
 	\include{7_Appendices}
 %	\include{8_Biography}
 \end{document}
-
-%\usepackage{hyperref}

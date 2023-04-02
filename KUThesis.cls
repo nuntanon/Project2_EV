@@ -146,7 +146,7 @@ labelsep=space
 
 % ACKNOWLEDGEMENTS ===================================
 \newenvironment{acknowledgements}
-{\@nameuse{collect}{acknowledgements}{\addcontentsline{toc}{chapter}{กิตติกรรมประกาศ}\par\vspace{\baselineskip}{\centering\fontsize{14}{16.1}\bfseries กิตติกรรมประกาศ \par}\vspace{1.2\baselineskip}}{\par\vspace{2\baselineskip}\ \hfill\@authorThai}{}{}}
+{\@nameuse{collect}{acknowledgements}{\addcontentsline{toc}{chapter}{กิตติกรรมประกาศ}\par\vspace{\baselineskip}{\centering\fontsize{14}{16.1}\bfseries กิตติกรรมประกาศ \par}\vspace{1.2\baselineskip}}{}{}}
 {\@nameuse{endcollect}}
 
 
