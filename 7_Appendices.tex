@@ -25,22 +25,24 @@
 \end{center}
 %------------------------------------------------------------------------------------------
 \chapter{คู่มือการใช้งานโปรแกรม Chroma 17020}
- เมื่อเปิดโปรแกรม Chroma 17020 จะพบกับหน้าเข้าสู่ระบบดังรูป
+ เมื่อเปิดโปรแกรม Chroma 17020 จะพบกับหน้าเข้าสู่ระบบดังรูปที่\ref{fig:Loggin}
  \begin{center}
 	\begin{figure}[H]
 		\includegraphics[width=1\linewidth]{Chapters/img/17020_Program/Loggin.png}
 		\centering
 		\captionsetup{justification=centering,margin=2cm}
 		\caption{หน้าเข้าสู่ระบบ}
+		\label{fig:Loggin}
 	\end{figure}
 \end{center}
-โดยรหัสผ่านค่าเริ่มต้นจากโรงงานคือ User:root, Password:root เมื่อเข้าสู่ระบบได้แล้วจะพบกับหน้าต่างดังรูป
+โดยรหัสผ่านค่าเริ่มต้นจากโรงงานคือ User:root, Password:root เมื่อเข้าสู่ระบบได้แล้วจะพบกับหน้าต่างดังรูปที่\ref{Main_window}
 \begin{center}
 	\begin{figure}[H]
 		\includegraphics[width=1\linewidth]{Chapters/img/17020_Program/Home.png}
 		\centering
 		\captionsetup{justification=centering,margin=2cm}
 		\caption{หน้าหลัก}
+		\label{Main_window}
 	\end{figure}
 \end{center}
 ซึ่งหน้านี้จะหน้าที่ใช้เพื่อเข้าสู่การตั้งค่าและการทำงานต่างๆของเครื่องทดสอบแบตเตอรี่ Chroma 17020 โดยจะประกอบไปด้วย 7 ส่วนดังนี้
@@ -238,11 +240,390 @@
 {\item (Cut-Off Condition) เงื่อนไขการสิ้นสุดคำสั่งนั้นๆ}
 {\item (Jump) ขั้นตอนการทำงานถัดไปเมื่อสิ้นสุดคำสั่งนั้นๆโดยสามารถเลือกได้ดังนี้คือ ทำคำสั่งถัดไปในตาราง(Next),\newline สิ้นสุดการทำงาน(End), 
 ข้ามไปทำคำสั่งที่ได้ตั้งค่าไว้(Jump to Step),พักชั่วคราวตามที่ได้ตั้งค่าไว้ในหน่วยวินาที(Rest),ทำตามเงื่อนไข(If)และ}
-{\item ค่าตัวแปรสำหรับคำสั่งคือ แรงดันไฟฟ้าV(V) กระแสไฟฟ้าI(A) กำลังไฟฟ้าP(W) โดยในส่วนนี้สามารถกำหนดค่าได้}
-{\item ลำดับคำสั่ง}
-{\item ชื่อคำสั่ง}
-{\item ค่าตัวแปรสำหรับคำสั่งคือ แรงดันไฟฟ้าV(V) กระแสไฟฟ้าI(A) กำลังไฟฟ้าP(W) โดยในส่วนนี้สามารถกำหนดค่าได้}
+{\item (Loop) กำหนดการทำคำสั่งซ้ำ (Label)เป็นคอลัมน์ที่ใช้เพื่อกำหนดคำสั่งที่ต้องการทำซ้ำ (Loop to)เป็นคอลัมน์ที่ใช้เพื่อกำหนดคำสั่งที่ต้องการทำซ้ำไปถึงคำสั่งที่มีการกำหนด\newline
+	    (Count) กำหนดจำนวนครั้งที่ต้องการทำซ้ำ}
 \end{itemize}
+%************************************************************************************************************
+\section{การสั่งการทำงานตามขั้นตอนการทดสอบ(Recipe Executor)}
+คลิ๊กที่เมนู Recipe Executor จากหน้าต่างหลักเพื่อเข้าสู่หน้าต่างการทำงานนี้ดังในรูป\ref{fig:main_Recipe_Executor}ซึ่งในรูปจะแสดงช่องทางการทดสอบแบตเตอรี่ที่สามารถใช้ในการทดสอบได้
+ทั้งหมด
+\begin{center}
+	\begin{figure}[H]
+		\includegraphics[width=1\linewidth]{Chapters/img/17020_Program/Recipe_Executor/Recipe_executor_main_win.png}
+		\centering
+		\captionsetup{justification=centering,margin=2cm}
+		\caption{หน้าต่างหลัก Recipe Executor}
+		\label{fig:main_Recipe_Executor}
+	\end{figure}
+\end{center}
+ในการเลือกช่องทางในการทดสอบแบตเตอรี่ที่ต้องการสามารถกดเลือกช่องสี่เหลี่ยมตรงช่องทางที่ต้องการดังรูปที่\ref{fig:select_box} จากนั้นให้ทำการเลือกขั้นตอนการทดสอบที่ได้ทำการตั้งค่าไว้แล้วดังรูปที่\ref{fig:data_display_recipe_executor} ในกรณีที่ไม่มีรูป(Icon)แสดงขึ้นมาดังในวงกลมสีแดงให้ทำการกดที่คำว่า Recipe Name แทนเมื่อคลิ๊กเข้าไปแล้วจะพบกับหน้าต่างดังรูปที่\ref{fig:recipe_setup_win}ให้ทำการเลือกชื่อลำดับขั้นตอนที่ได้ตั้งค่าไว้แล้วจากเมนู Recipe Editor โดยเลือกขั้นตอนที่ต้องการ
+ให้ตรงกับช่องทางการทดสอบที่ต้องการจากนั้นให้กดตกลงจากนั้นให้กด Start จากเมนูด้านบนในรูปที่\ref{fig:main_Recipe_Executor}หลังจากที่ได้เริ่มทำการทดสอบแล้วโดยถ้าหากต้องการดูข้อมูลการทดสอบ
+ให้กดที่รูปกล่องสีเขียวจากนั้นกราฟข้อมูลการทดสอบจะปรากฎขึ้นดังรูปที่\ref{fig:ch_graph}
+
+\begin{center}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\linewidth]{Chapters/img/17020_Program/Recipe_Executor/battery_select_box.png}
+		\centering
+		\captionsetup{justification=centering,margin=2cm}
+		\caption{เลือกช่องทางการทดสอบ}
+		\label{fig:select_box}
+	\end{figure}
+	\begin{figure}[H]
+		\includegraphics[width=1\linewidth]{Chapters/img/17020_Program/Recipe_Executor/battery_data_display.png}
+		\centering
+		\captionsetup{justification=centering,margin=2cm}
+		\caption{เลือกขั้นตอนการทดสอบ (ก.)}
+		\label{fig:data_display_recipe_executor}
+	\end{figure}
+	\begin{figure}[H]
+		\includegraphics[width=1\linewidth]{Chapters/img/17020_Program/Recipe_Executor/recipe_setup_win.png}
+		\centering
+		\captionsetup{justification=centering,margin=2cm}
+		\caption{เลือกขั้นตอนการทดสอบ (ข.)}
+		\label{fig:recipe_setup_win}
+	\end{figure}
+	\begin{figure}[H]
+		\includegraphics[width=1\linewidth]{Chapters/img/17020_Program/Recipe_Executor/ch_graph.png}
+		\centering
+		\captionsetup{justification=centering,margin=2cm}
+		\caption{กราฟข้อมูลระหว่างการทดสอบ}
+		\label{fig:ch_graph}
+	\end{figure}
+\end{center}
+%************************************************************************************************************
+\section{การแสดงผลข้อมูลที่ได้จากการทดสอบ(Report)}
+กดเข้าเมนู Report จากในหน้าต่างหลักเพื่อเข้าสู่เมนูนี้แล้วหน้าต่างเมนู Report จะปรากฎดังรูปที่\ref{fig:report}จากนั้นให้เลือกข้อมูลที่ต้องการแสดงผลโดยกดเลือกที่ Generate เมื่อกดเข้าไปแล้ว
+หน้าต่างเลือกข้อมูลจะปรากฏดังรูปที่\ref{fig:Selecting_data_data_analysis} จากนั้นให้ทำการเลือกข้อมูลเมื่อเลือกข้อมูลที่ต้องการแล้วให้กดตกลงจากนั้นให้กด Export to PDF
+ตรงแถบเมนูด้านบนซึ่งข้อมูลที่ได้นี้จะเป็นข้อมูลอย่างคร่าวๆ
+\begin{center}
+	\begin{figure}[H]
+		\includegraphics[width=1\linewidth]{Chapters/img/17020_Program/Report/Report_main_menu.png}
+		\centering
+		\captionsetup{justification=centering,margin=2cm}
+		\caption{หน้าต่างหลักของเมนู Report}
+		\label{fig:report}
+	\end{figure}
+	\begin{figure}[H]
+		\includegraphics[width=1\linewidth]{Chapters/img/17020_Program/Report/Selecting_data.png}
+		\centering
+		\captionsetup{justification=centering,margin=2cm}
+		\caption{หน้าต่างหลักของเมนู Report}
+		\label{fig:Selecting_data_data_analysis}
+	\end{figure}
+\end{center}
+โดยการนำข้อมูลการทดสอบอย่างละเอียดให้กดที่เมนู Data Analysis ที่แถบเมนูด้านบนแล้วหน้าต่างจะปรากฎขึ้นดังรูปที่\ref{fig:Data_analysis}โดยในหน้าต่างนี้จะเห็นได้ว่าด้านล่างของหน้าต่าง
+จะมีให้กำหนดตัวแปรและแกนที่ต้องการจะวาดกราฟข้อมูลการทดสอบเมื่อกำหนดตัวแปรตามที่ต้องการแล้วให้กดเลือกข้อมูลที่ต้องการที่แถบเมนู Data Selection โดยต้องเลือกให้ตรงกับตัวแปรและแกนที่ได้กำหนดไว้แล้ว
+จากนั้นเมื่อเลือกข้อมูลที่ต้องการได้แล้วให้ทำการกด Preview โปรแกรมจะทำการวาดกราฟข้อมูลการทดสอบตามข้อมูลที่ได้เลือกไว้จากนั้นให้กดเลือกเมนู Data เพื่อตรวจสอบความถูกต้องของข้อมูลการทดสอบโดยข้อมูลจะถูกแสดงผล
+ออกมาในรูปแบบตารางดังรูปที่\ref{fig:Data_analysis_preview}เมื่อตรวจสอบความถูกต้องของข้อมูลการทดสอบที่ต้องการจะนำไปวิเคราะห์แล้วให้ทำการกดบันทึกข้อมูลโดยเลือกที่เมนู Data Analysis
+Export จากนั้นหน้าต่างบันทึกข้อมูลจะปรากฎดังรูปที่\ref{fig:Export_data_analysis} จากนั้นให้ทำการตั้งชื่อและเลือกที่อยู่ของข้อมูลที่ต้องการบันทึกจากนั้นให้กดตกลง
+
+\begin{center}
+	\begin{figure}[H]
+		\includegraphics[width=1\linewidth]{Chapters/img/17020_Program/Report/Data_analysis.png}
+		\centering
+		\captionsetup{justification=centering,margin=2cm}
+		\caption{หน้าต่างเมนู Data Analysis}
+		\label{fig:Data_analysis}
+	\end{figure}
+	\begin{figure}[H]
+		\includegraphics[width=1\linewidth]{Chapters/img/17020_Program/Report/Data_analysis_preview.png}
+		\centering
+		\captionsetup{justification=centering,margin=2cm}
+		\caption{กราฟข้อมูลการทดสอบโดยเมนู Data Analysis}
+		\label{fig:Data_analysis_preview}
+	\end{figure}
+	\begin{figure}[H]
+		\includegraphics[width=1\linewidth]{Chapters/img/17020_Program/Report/Export_data_analysis.png}
+		\centering
+		\captionsetup{justification=centering,margin=2cm}
+		\caption{หน้าต่างบันทึกข้อมูลจากเมนู Data Analysis}
+		\label{fig:Export_data_analysis}
+	\end{figure}
+\end{center}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
