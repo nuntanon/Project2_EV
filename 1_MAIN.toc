@@ -1,0 +1,56 @@
+\hfill หน้า\par \vspace {-23pt}
+\contentsline {chapter}{บทคัดย่อภาษาไทย}{(1)}{}%
+\contentsline {chapter}{บทคัดย่อภาษาอังกฤษ}{(2)}{}%
+\contentsline {chapter}{กิตติกรรมประกาศ}{(3)}{}%
+\changetocdepth {4}
+\contentsline {chapter}{สารบัญตาราง}{(7)}{}%
+\contentsline {chapter}{สารบัญภาพ}{(8)}{}%
+\contentsline {chapter}{\chapternumberline {1}บทนำ}{1}{}%
+\contentsline {section}{\numberline {1.1}ที่มาและความสำคัญ}{1}{}%
+\contentsline {section}{\numberline {1.2}วัตถุประสงค์ของโครงงาน}{2}{}%
+\contentsline {section}{\numberline {1.3}ขอบเขตการทำงาน}{2}{}%
+\contentsline {section}{\numberline {1.4}ขั้นตอนการดำเนินงาน}{3}{}%
+\contentsline {section}{\numberline {1.5}ประโยชน์ที่คาดว่าจะได้รับ}{3}{}%
+\contentsline {chapter}{\chapternumberline {2}ทฤษฎีและบทความที่เกี่ยวข้อง}{4}{}%
+\contentsline {section}{\numberline {2.1}แบตเตอรี่ลิเธียมไอออน}{4}{}%
+\contentsline {subsection}{\numberline {2.1.1}โครงสร้างและส่วนประกอบ}{4}{}%
+\contentsline {subsection}{\numberline {2.1.2}หลักการทำงานของแบตเตอรี่ลิเธียมไอออน}{6}{}%
+\contentsline {subsection}{\numberline {2.1.3}ลักษณะของแบตเตอรี่ลิเธียมไอออน}{7}{}%
+\contentsline {subsection}{\numberline {2.1.4}คุณลักษณะของแบตเตอรี่ลิเธียมไอออน}{8}{}%
+\contentsline {subsection}{\numberline {2.1.5}แบตเตอรี่ลิเธียมไอออนชนิดต่างๆ}{10}{}%
+\contentsline {section}{\numberline {2.2}ประสิทธิภาพอัตราการดิสชาร์จของแบตเตอรี่ลิเธียมไอออน}{14}{}%
+\contentsline {subsection}{\numberline {2.2.1}ผลกระทบของอุณหภูมิต่อความจุของแบตเตอรี่}{15}{}%
+\contentsline {section}{\numberline {2.3}วงจรสมมูลของแบตเตอรี่}{16}{}%
+\contentsline {section}{\numberline {2.4}ระบบการจัดการแบตเตอรี่(BMS)}{20}{}%
+\contentsline {subsection}{\numberline {2.4.1}การทำงานของระบบการจัดการแบตเตอรี่}{20}{}%
+\contentsline {chapter}{\chapternumberline {3}ขั้นตอนวิธีการทดสอบแบตเตอรี่ตามมาตรฐาน}{23}{}%
+\contentsline {subsection}{\numberline {3.0.1}การทดสอบการป้องกันการชาร์จเกินของแบตเตอรี่}{23}{}%
+\contentsline {subsection}{\numberline {3.0.2}การทดสอบการป้องกันการดิสชาร์จเกินของแบตเตอรี่}{24}{}%
+\contentsline {section}{\numberline {3.1}ขั้นตอนการทดสอบอื่นๆ}{25}{}%
+\contentsline {subsection}{\numberline {3.1.1}การทดสอบระยะเวลาในการพักของแบตเตอรี่}{25}{}%
+\contentsline {subsection}{\numberline {3.1.2}การทดสอบอัตรากระแส}{25}{}%
+\contentsline {subsection}{\numberline {3.1.3}การทดสอบวัดค่าความต้านทานภายในของแบตเตอรี่}{26}{}%
+\contentsline {section}{\numberline {3.2}อุปกรณ์สำหรับทดสอบแบตเตอรี่}{26}{}%
+\contentsline {subsection}{\numberline {3.2.1}แบตเตอรี่สำหรับทำการทดสอบ}{30}{}%
+\contentsline {section}{\numberline {3.3}การใช้งานเครื่องทดสอบแบตเตอรี่ Chroma Model 17020}{32}{}%
+\contentsline {subsection}{\numberline {3.3.1}การใช้เครื่องทดสอบแบตเตอรี่ Chroma Model 17020 \\ ในการทดสอบการป้องกันการชาร์จเกินของแบตเตอรี่}{39}{}%
+\contentsline {subsection}{\numberline {3.3.2}การใช้เครื่องทดสอบแบตเตอรี่ Chroma Model 17020 \\ ในการทดสอบการป้องกันการดิสชาร์จเกินของแบตเตอรี่}{40}{}%
+\contentsline {subsection}{\numberline {3.3.3}การใช้เครื่องทดสอบแบตเตอรี่ Chroma Model 17020 \\ ในการทดสอบอื่นๆ}{42}{}%
+\contentsline {chapter}{\chapternumberline {4}ผลการทดสอบแบตเตอรี่ตามมาตรฐาน}{43}{}%
+\contentsline {section}{\numberline {4.1}การทดสอบตามมาตรฐาน UN ECE R136}{43}{}%
+\contentsline {subsection}{\numberline {4.1.1}ผลการทดสอบการป้องกันการชาร์จเกิน}{44}{}%
+\contentsline {subsection}{\numberline {4.1.2}ผลการทดสอบการป้องกันการดิสชาร์จเกิน}{46}{}%
+\contentsline {section}{\numberline {4.2}ผลการทดสอบอื่นๆ}{49}{}%
+\contentsline {subsection}{\numberline {4.2.1}ผลการทดสอบการวัดความต้านทานภายในของแบตเตอรี่}{49}{}%
+\contentsline {subsection}{\numberline {4.2.2}ผลการทดสอบระยะเวลาในการพักของแบตเตอรี่}{50}{}%
+\contentsline {subsection}{\numberline {4.2.3}ผลการทดสอบอัตรากระแส}{51}{}%
+\contentsline {chapter}{\chapternumberline {5}บทสรุปและข้อเสนอแนะ}{52}{}%
+\contentsline {section}{\numberline {5.1}สรุปผลการทดสอบแบตเตอรี่}{52}{}%
+\contentsline {section}{\numberline {5.2}แนวทางการแก้ปัญหา}{53}{}%
+\contentsline {section}{\numberline {5.3}ข้อเสนอแนะ}{53}{}%
+\contentsline {chapter}{บรรณานุกรม}{55}{}%
+\contentsline {chapter}{ภาคผนวก}{57}{}%
+\contentsline {appendix}{\chapternumberline {ก} }{57}{}%
+\contentsline {appendix}{\chapternumberline {ข} }{60}{}%
+\contentsline {chapter}{ประวัติผู้เขียน}{83}{}%
+\contentsfinish 
