@@ -36,21 +36,22 @@
 \contentsline {subsection}{\numberline {3.3.1}การใช้เครื่องทดสอบแบตเตอรี่ Chroma Model 17020 \\ ในการทดสอบการป้องกันการชาร์จเกินของแบตเตอรี่}{39}{}%
 \contentsline {subsection}{\numberline {3.3.2}การใช้เครื่องทดสอบแบตเตอรี่ Chroma Model 17020 \\ ในการทดสอบการป้องกันการดิสชาร์จเกินของแบตเตอรี่}{40}{}%
 \contentsline {subsection}{\numberline {3.3.3}การใช้เครื่องทดสอบแบตเตอรี่ Chroma Model 17020 \\ ในการทดสอบอื่นๆ}{42}{}%
-\contentsline {chapter}{\chapternumberline {4}ผลการทดสอบแบตเตอรี่ตามมาตรฐาน}{43}{}%
+\contentsline {chapter}{\chapternumberline {4}ผลการทดสอบแบตเตอรี่ตามมาตรฐานและผลการทดสอบอื่นๆ}{43}{}%
 \contentsline {section}{\numberline {4.1}การทดสอบตามมาตรฐาน UN ECE R136}{43}{}%
-\contentsline {subsection}{\numberline {4.1.1}ผลการทดสอบการป้องกันการชาร์จเกิน}{44}{}%
-\contentsline {subsection}{\numberline {4.1.2}ผลการทดสอบการป้องกันการดิสชาร์จเกิน}{46}{}%
-\contentsline {section}{\numberline {4.2}ผลการทดสอบอื่นๆ}{49}{}%
-\contentsline {subsection}{\numberline {4.2.1}ผลการทดสอบการวัดความต้านทานภายในของแบตเตอรี่}{49}{}%
-\contentsline {subsection}{\numberline {4.2.2}ผลการทดสอบระยะเวลาในการพักของแบตเตอรี่}{50}{}%
-\contentsline {subsection}{\numberline {4.2.3}ผลการทดสอบอัตรากระแส}{51}{}%
-\contentsline {chapter}{\chapternumberline {5}บทสรุปและข้อเสนอแนะ}{52}{}%
-\contentsline {section}{\numberline {5.1}สรุปผลการทดสอบแบตเตอรี่}{52}{}%
-\contentsline {section}{\numberline {5.2}แนวทางการแก้ปัญหา}{53}{}%
-\contentsline {section}{\numberline {5.3}ข้อเสนอแนะ}{53}{}%
-\contentsline {chapter}{บรรณานุกรม}{55}{}%
-\contentsline {chapter}{ภาคผนวก}{57}{}%
-\contentsline {appendix}{\chapternumberline {ก} }{57}{}%
-\contentsline {appendix}{\chapternumberline {ข} }{60}{}%
-\contentsline {chapter}{ประวัติผู้เขียน}{83}{}%
+\contentsline {section}{\numberline {4.2}การทดสอบอื่นๆ}{44}{}%
+\contentsline {subsection}{\numberline {4.2.1}ผลการทดสอบการป้องกันการชาร์จเกิน}{46}{}%
+\contentsline {subsection}{\numberline {4.2.2}ผลการทดสอบการป้องกันการดิสชาร์จเกิน}{49}{}%
+\contentsline {section}{\numberline {4.3}ผลการทดสอบอื่นๆ}{52}{}%
+\contentsline {subsection}{\numberline {4.3.1}ผลการทดสอบการวัดความต้านทานภายในของแบตเตอรี่}{52}{}%
+\contentsline {subsection}{\numberline {4.3.2}ผลการทดสอบระยะเวลาในการพักของแบตเตอรี่}{53}{}%
+\contentsline {subsection}{\numberline {4.3.3}ผลการทดสอบอัตรากระแส}{54}{}%
+\contentsline {chapter}{\chapternumberline {5}บทสรุปและข้อเสนอแนะ}{55}{}%
+\contentsline {section}{\numberline {5.1}สรุปผลการทดสอบแบตเตอรี่}{55}{}%
+\contentsline {section}{\numberline {5.2}แนวทางการแก้ปัญหา}{56}{}%
+\contentsline {section}{\numberline {5.3}ข้อเสนอแนะ}{57}{}%
+\contentsline {chapter}{บรรณานุกรม}{58}{}%
+\contentsline {chapter}{ภาคผนวก}{60}{}%
+\contentsline {appendix}{\chapternumberline {ก} }{60}{}%
+\contentsline {appendix}{\chapternumberline {ข} }{64}{}%
+\contentsline {chapter}{ประวัติผู้เขียน}{87}{}%
 \contentsfinish 
